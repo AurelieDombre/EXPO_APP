@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ScrollView, Image, View, Text, TextInput, StyleSheet } from 'react-native';
 
+
 export default function App() {
   const [textValue, setTextValue] = useState('');
 
@@ -25,6 +26,7 @@ export default function App() {
       {/* Section basse */}
       <View style={[styles.section, styles.sectionBorder]}>
         <ScrollView>
+      
           <Image
             style={styles.image}
             source={{ uri: 'https://i.pinimg.com/236x/5b/c2/c6/5bc2c65295d011c580ab5bf3563dabf9--stock-photo-free-free-stock-image.jpg' }}
